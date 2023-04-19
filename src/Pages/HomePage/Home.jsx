@@ -13,7 +13,7 @@ const Home = () => {
             .then(data => setData(data))
     }, [])
     return (
-        <div className='h-[800px] flex justify-center items-center'>
+        <div className=' min-h-screen flex justify-center items-center'>
             <div className='lg:flex'>
                 <div className='bg-black h-[300px] lg:h-[500px] lg:w-[950px]  lg:mr-5 lg:mt-5 border border-base-300 '>
                     <VideoPlayer
