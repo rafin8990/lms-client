@@ -1,0 +1,137 @@
+[
+        {
+            "id":"1",
+            "name":"First Modiule",
+            "lessons":[
+                {
+                    "lessonNumber":"1",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson One Name",
+                    "moduleNo":"01"
+                },
+                {
+                    "lessonNumber":"2",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://www.w3schools.com/html/mov_bbb.mp4",
+                    "name":"Lesson Two Name",
+                    "moduleNo":"01"
+                },
+                {
+                    "lessonNumber":"3",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson Three Name",
+                    "moduleNo":"01"
+                }
+            ]
+        },
+        {
+            "id":"2",
+            "name":"Second Modiule",
+            "lessons":[
+                {
+                    "lessonNumber":"1",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson One Name",
+                    "moduleNo":"02"
+                },
+                {
+                    "lessonNumber":"2",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://www.w3schools.com/html/mov_bbb.mp4",
+                    "name":"Lesson Two Name",
+                    "moduleNo":"02"
+                },
+                {
+                    "lessonNumber":"3",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson Three Name",
+                    "moduleNo":"02"
+                }
+            ]
+        },
+        {
+            "id":"3",
+            "name":"Third Modiule",
+            "lessons":[
+                {
+                    "lessonNumber":"1",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson One Name",
+                    "moduleNo":"03"
+                },
+                {
+                    "lessonNumber":"2",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://www.w3schools.com/html/mov_bbb.mp4",
+                    "name":"Lesson Two Name",
+                    "moduleNo":"03"
+                },
+                {
+                    "lessonNumber":"3",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson Three Name",
+                    "moduleNo":"03"
+                }
+            ]
+        },
+        {
+            "id":"4",
+            "name":"Fourth Modiule",
+            "lessons":[
+                {
+                    "lessonNumber":"1",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson One Name",
+                    "moduleNo":"04"
+                },
+                {
+                    "lessonNumber":"2",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://www.w3schools.com/html/mov_bbb.mp4",
+                    "name":"Lesson Two Name",
+                    "moduleNo":"04"
+                },
+                {
+                    "lessonNumber":"3",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson Three Name",
+                    "moduleNo":"04"
+                }
+            ]
+        },
+        {
+            "id":"5",
+            "name":"Fifth Modiule",
+            "lessons":[
+                {
+                    "lessonNumber":"1",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson One Name",
+                    "moduleNo":"05"
+                },
+                {
+                    "lessonNumber":"2",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://www.w3schools.com/html/mov_bbb.mp4",
+                    "name":"Lesson Two Name",
+                    "moduleNo":"05"
+                },
+                {
+                    "lessonNumber":"3",
+                    "lessonDetails":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem dolorem eveniet quod voluptatum similique perspiciatis distinctio repellendus provident? Similique, consequuntur.",
+                    "videoLink":"https://media.w3.org/2010/05/sintel/trailer_hd.mp4",
+                    "name":"Lesson Three Name",
+                    "moduleNo":"05"
+                }
+            ]
+        }
+]
