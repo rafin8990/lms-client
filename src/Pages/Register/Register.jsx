@@ -1,9 +1,10 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { AuthContext } from '../../Context/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Register = () => {
+    const [signUpError, setSignUpError]=useState('')
     const location = useLocation()
     const navigate = useNavigate()
 
@@ -25,7 +26,10 @@ const Register = () => {
                     .then(() => {
                         navigate(from, { replace: true });
                     })
-                    .catch(error => console.error(error))
+                    .catch(error => {
+                        setSignUpError(error.message)
+                        console.error(error)
+                    })
             })
     }
 
@@ -59,6 +63,7 @@ const Register = () => {
                     </div>
                     <div>
                         <button type='submit' className='btn btn-success w-full my-2'>Register</button>
+                        <p>{signUpError}</p>
                     </div>
                     <div className='divider'>Or</div>
                     

@@ -1,9 +1,10 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { AuthContext } from '../../Context/AuthProvider';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
+    const [loginError, setLoginError]=useState('')
     const location = useLocation()
     const navigate = useNavigate()
     const { googleSignIn, signIn } = useContext(AuthContext);
@@ -22,7 +23,10 @@ const Login = () => {
                 console.log(user)
                 navigate(from, { replace: true });
             })
-            .catch(error => console.error(error))
+            .catch(error => {
+                setLoginError(error.message)
+                console.error(error)
+            })
     };
 
     const handleGoogle = () => {
@@ -50,7 +54,9 @@ const Login = () => {
                     </div>
                     <div>
                         <button type='submit' className='btn btn-success w-full my-2'>Login</button>
+                        <p>{loginError}</p>
                     </div>
+
                     <div className='divider'>Or</div>
                     <button onClick={handleGoogle} className='btn btn-warning w-full'>SignIn With Google</button>
                 </form>

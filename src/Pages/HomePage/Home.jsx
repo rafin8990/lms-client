@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import ModuleDetails from './ModuleDetails';
 import VideoPlayer from './VideoPlayer';
+import './Home.css'
+
 
 const Home = () => {
     const [data, setData] = useState([]);
@@ -20,7 +22,7 @@ const Home = () => {
                         lesson={lesson}
                     ></VideoPlayer>
                 </div>
-                <div>
+                <div className='scrollbar overflow-y-scroll h-[550px] p-5'>
                     {
                         data.map(module => <ModuleDetails
                             key={module?.id}
