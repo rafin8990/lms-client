@@ -22,7 +22,7 @@ const Home = () => {
                         lesson={lesson}
                     ></VideoPlayer>
                 </div>
-                <div className='scrollbar overflow-y-scroll h-[550px] p-5'>
+                <div className='scrollbar overflow-y-scroll h-[550px] p-5 mt-20 md:mt-0'>
                     {
                         data.map(module => <ModuleDetails
                             key={module?.id}
