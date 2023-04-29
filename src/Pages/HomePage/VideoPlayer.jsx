@@ -1,6 +1,6 @@
 import React from 'react';
 
-const VideoPlayer = ({ lesson }) => {
+const VideoPlayer = ({ lesson, setLesson }) => {
     return (
         <div className='lg:mt-5'>
             {lesson ?
@@ -15,8 +15,8 @@ const VideoPlayer = ({ lesson }) => {
             {
                 lesson ?
                     <div className='flex justify-end'>
-                        <button className='btn btn-success btn-sm px-10'>Next</button>
-                        <button className='btn btn-success btn-sm px-10 btn-outline lg:ml-5'>Previous</button>
+                        <button className='btn btn-success btn-sm px-10 '>Previous</button>
+                        <button className='btn btn-success btn-sm px-10 btn-outline lg:ml-5'>Next</button>
                     </div>
                     :
                     <div className='flex justify-end'>

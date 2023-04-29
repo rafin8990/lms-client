@@ -10,7 +10,7 @@ const Home = () => {
     console.log(lesson)
 
     useEffect(() => {
-        fetch('modules.json')
+        fetch('http://localhost:5000/modules')
             .then(res => res.json())
             .then(data => setData(data))
     }, [])
@@ -20,6 +20,7 @@ const Home = () => {
                 <div className='bg-black h-[300px] lg:h-[500px] lg:w-[950px]  lg:mr-5 lg:mt-5 border border-base-300 '>
                     <VideoPlayer
                         lesson={lesson}
+                        setLesson={setLesson}
                     ></VideoPlayer>
                 </div>
                 <div className='scrollbar overflow-y-scroll h-[550px] p-5 mt-20 md:mt-0'>
