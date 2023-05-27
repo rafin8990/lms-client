@@ -5,8 +5,8 @@ import { AuthContext } from '../Context/AuthProvider';
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
     return (
-        <div className=' lg:w-[1440px] mx-auto'>
-            <div className="navbar ">
+        <div className='bg-[#262D36] '>
+            <div className="navbar lg:w-[1440px] mx-auto ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden text-base-100">
@@ -27,19 +27,25 @@ const Navbar = () => {
                     </div>
                     <div>
                         <img src="" alt="" />
-                        <Link to='/' className="btn btn-ghost normal-case text-xl text-base-100">SA LMS</Link>
+                        <Link to='/' className="btn btn-ghost normal-case text-2xl text-base-100">Swachh Akshar</Link>
                     </div>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
+                        <li className='text-xl text-white hover:text-yellow-300'><Link to='/'>Home</Link></li>
+                        {
+                            user?.uid && <li className='text-xl text-white hover:text-yellow-300'><Link to='/dashboard'>Dashboard</Link></li>
+                        }
+
+
                         {
                             user?.uid ?
                                 <>
                                     <li className='text-base-100 mr-5 mt-3'>{user?.displayName}</li>
-                                    <li onClick={logOut} className='btn btn-success btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
+                                    <li onClick={logOut} className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
                                 </>
                                 :
-                                <li className='text-base-300'><Link to='/login'>Login</Link></li>
+                                <li className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
                         }
                     </ul>
                 </div>

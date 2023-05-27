@@ -4,6 +4,7 @@ import Home from "../Pages/HomePage/Home";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
 import PrivateRoute from "./PrivateRoute";
+import LandingPage from "../Pages/LandingPage/LandingPage";
 
 export const router = createBrowserRouter([
     {
@@ -11,7 +12,11 @@ export const router = createBrowserRouter([
         element: <Main></Main>,
         children: ([
             {
-                path: '/',
+                path:'/',
+                element:<LandingPage></LandingPage>
+            },
+            {
+                path: '/dashboard',
                 element: <PrivateRoute><Home></Home></PrivateRoute>
             },
             {

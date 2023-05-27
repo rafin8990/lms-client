@@ -12,7 +12,7 @@ const ModuleDetails = ({ module, setLesson }) => {
                 <div className="collapse-content">
                     {
                         lessons.map(data => <ul>
-                            <li onClick={() => setLesson(data)} className='btn btn-sm btn-outline mt-5 w-full text-white'>{data.name}</li>
+                            <li onClick={() => setLesson(data)} className='btn btn-sm btn-outline btn-success mt-5 w-full'>{data.name}</li>
                         </ul>)
                     }
                 </div>
