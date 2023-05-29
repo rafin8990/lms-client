@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <h2 className="text-2xl font-bold text-white">Swachh Akshar</h2>
+                            <Link to='/'><h2 className="text-2xl font-bold text-white">Swachh Akshar</h2></Link>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -59,6 +59,9 @@ const Navbar = () => {
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/'>Home</Link></li>
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/services'>Services</Link></li>
+                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/about'>About</Link></li>
+                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/courses'>Courses</Link></li>
+                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/collaboration'>Collaboration</Link></li>
                             {
                                 user?.uid && <li className='text-xl text-white hover:text-yellow-300'><Link to='/dashboard'>Dashboard</Link></li>
                             }

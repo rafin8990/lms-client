@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
             <div className="divider"></div>
             <div> 
-                <h1 className='text-white my-5 text-center'>Copyright @ swachh Akshar || All rights reserve</h1>
+                <h1 className='text-[#FA383E]  my-5 text-center'>Copyright @ swachh Akshar || All rights reserve</h1>
             </div>
         </div>
     );

@@ -1,0 +1,64 @@
+[
+    {
+        "name": " CORPORATE WRITING SERVICES",
+        "details": "The right attitude of professionalism and manner in our words combined will take your business to new heights. From presentations to proposals, our high-quality and effective content serves as a purpose to make your work stand out in the corporate world.",
+        "services": [
+            {
+                "name": "Presentations ",
+                "service": "  Take your projects and ideas to next level with our detailed, graphic, and engaging presentations"
+            },
+            {
+                "name": "Proposals",
+                "service": "  Get your word through in meetings with our effective and polished proposals"
+            },
+            {
+                "name": "Profiles ",
+                "service": "  The reputation of the corporation matter the most to us. With that in mind, we render content that not only resonates with the customer at hand but also with the company"
+            },
+            {
+                "name": "Portfolios",
+                "service": "   Enhance and portray your public persona with content designed specific to you. "
+            }
+        ]
+    },
+    {
+        "name": "BUSINESS CONTENT SERVICES",
+        "details": "Define your purpose with words meticulously crafted to attract your target audience. Our  team of professionals are equipped with the best of skills in SEO to make your business  stand remarkable in the market.",
+        "services": [
+            {
+                "name": "Website Content ",
+                "service": "  Rebrand your image in the social world with comprehensive content for your website."
+            },
+            {
+                "name": "Brand building content ",
+                "service": "  Your brand is your reputation, therefore our content which is consistent in communication will ensure to keep your reputation at bay."
+            },
+            {
+                "name": "Social Media Content  ",
+                "service": " The use of social media in today’s era is tremendous as it serves as the most affective piece of communication. Our engaging and appealing  content works to do just that to make it easier for you to interact with your audience. "
+            },
+            {
+                "name": " Political Content",
+                "service": " Increase the credibility in your political campaigns with words that resonate with your goals and values. "
+            }
+        ]
+    },
+    {
+        "name": "EDUCATIONAL CONTENT SERVICES",
+        "details": "Our educational content services are specifically made for all your academic purposes.",
+        "services": [
+            {
+                "name": "Essay writing",
+                "service": "  - Our content helps you craft cohesive essays for your projects"
+            },
+            {
+                "name": "Story/script writing",
+                "service": "  Have an idea in mind but don’t know how to put it in words? Avail our descriptive and detailed content on stories/scripts for your ideas to run  free on paper"
+            },
+            {
+                "name": " Translations",
+                "service": "  Whether it be translating from English to Hindi or Hindi to Gujarati, we offer translation services to generate a positive multilingual experience for your readers. "
+            }
+        ]
+    }
+]

@@ -7,7 +7,7 @@ const Learner = () => {
     return (
         <div className='bg-[#262D36] lg:p-20'>
             <Fade down>
-                <h1 className='text-xl pt-10 md:text-4xl font-bold  text-white text-center'>Hear what our learners have to say</h1>
+                <h1 className='text-xl pt-10 md:text-4xl font-bold  text-[#FA383E] text-center'>Hear what our learners have to say</h1>
             </Fade>
             <Fade down>
                 <div className='mt-10 lg:my-20 grid grid-cols-1 md:grid-cols-2  gap-5 lg:w-[1440px] mx-2 lg:mx-auto'>
@@ -18,7 +18,7 @@ const Learner = () => {
                         <div className='flex justify-between items-center'>
                             <div className='flex items-center'>
                                 <div>
-                                    <img className=' w-16 h-16 rounded-full' src={user} alt="" />
+                                    <img className=' w-16 h-16 rounded-full border border-[#FA383E]' src={user} alt="" />
                                 </div>
                                 <div className='ml-5'>
                                     <h1 className='text-xl'> Cody Fisher</h1>
@@ -34,7 +34,7 @@ const Learner = () => {
                         <div className='flex justify-between items-center'>
                             <div className='flex items-center'>
                                 <div>
-                                    <img className=' w-16 h-16 rounded-full' src={user} alt="" />
+                                    <img className=' w-16 h-16 rounded-full border border-[#FA383E]' src={user} alt="" />
                                 </div>
                                 <div className='ml-5'>
                                     <h1 className='text-xl'> Cody Fisher</h1>
@@ -50,7 +50,7 @@ const Learner = () => {
                         <div className='flex justify-between items-center'>
                             <div className='flex items-center'>
                                 <div>
-                                    <img className=' w-16 h-16 rounded-full' src={user} alt="" />
+                                    <img className=' w-16 h-16 rounded-full border border-[#FA383E]' src={user} alt="" />
                                 </div>
                                 <div className='ml-5'>
                                     <h1 className='text-xl'> Cody Fisher</h1>
@@ -66,7 +66,7 @@ const Learner = () => {
                         <div className='flex justify-between items-center'>
                             <div className='flex items-center'>
                                 <div>
-                                    <img className=' w-16 h-16 rounded-full' src={user} alt="" />
+                                    <img className=' w-16 h-16 rounded-full border border-[#FA383E]' src={user} alt="" />
                                 </div>
                                 <div className='ml-5'>
                                     <h1 className='text-xl'> Cody Fisher</h1>
