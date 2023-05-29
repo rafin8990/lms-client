@@ -47,7 +47,7 @@ const Login = () => {
                 <Content></Content>
             </div>
             <div data-aos="slide-left" className='ml-10'>
-                <div className='w-96 bg-base-300  p-4 rounded-2xl shadow-2xl hover:shadow-green-300'>
+                <div className='w-96 bg-black  p-4 rounded-2xl shadow-2xl hover:shadow-green-300'>
                     <form onSubmit={handleSubmit(handleLogin)}>
                         <div>
                             <p className=' my-2'>Email:</p>
