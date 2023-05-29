@@ -7,7 +7,7 @@ import img from '../../../assets/header/young-woman-teacher-wearing-glasses-sitt
 const WhatWeDo = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://lms-server-indol.vercel.app/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])

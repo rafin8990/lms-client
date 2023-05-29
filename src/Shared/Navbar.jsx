@@ -62,6 +62,7 @@ const Navbar = () => {
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/about'>About</Link></li>
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/courses'>Courses</Link></li>
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/collaboration'>Collaboration</Link></li>
+                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/contact'>Contact</Link></li>
                             {
                                 user?.uid && <li className='text-xl text-white hover:text-yellow-300'><Link to='/dashboard'>Dashboard</Link></li>
                             }
@@ -73,10 +74,10 @@ const Navbar = () => {
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
                             {
                                 user?.uid ?
-                                    <>
+                                    <div className='flex items-center'>
                                         <li className='text-base-100 mr-5 mt-3'>{user?.displayName}</li>
                                         <li onClick={logOut} className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
-                                    </>
+                                    </div>
                                     :
                                     <li className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
                             }
@@ -86,10 +87,10 @@ const Navbar = () => {
                 <div className="hidden space-x-2 md:inline-block">
                     {
                         user?.uid ?
-                            <>
+                            <div className='flex items-center'>
                                 <li className='text-base-100 mr-5 mt-3'>{user?.displayName}</li>
                                 <li onClick={logOut} className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
-                            </>
+                            </div>
                             :
                             <li className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
                     }

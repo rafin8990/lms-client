@@ -10,6 +10,7 @@ import ServiceDetails from "../Pages/Services/ServiceDetails/ServiceDetails";
 import About from "../Pages/About/About";
 import Courses from "../Pages/Courses/Courses";
 import Collaboration from "../Pages/Colaboration/Collaboration";
+import Contact from "../Pages/Contact/Contact";
 export const router = createBrowserRouter([
     {
         path: '/',
@@ -48,9 +49,13 @@ export const router = createBrowserRouter([
                 element: <Collaboration></Collaboration>
             },
             {
+                path: '/contact',
+                element: <Contact></Contact>
+            },
+            {
                 path: '/services/:id',
                 element: <ServiceDetails></ServiceDetails>,
-                // loader:({params})=>fetch(`http://localhost:5000/services/${params._id}`)
+                // loader:({params})=>fetch(`https://lms-server-indol.vercel.app/services/${params._id}`)
             }
         ])
     }

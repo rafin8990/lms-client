@@ -16,7 +16,7 @@ const Home = () => {
     
       const fetchVideoPlaylist = async () => {
         try {
-          const response = await axios.get('http://localhost:5000/modules');
+          const response = await axios.get('https://lms-server-indol.vercel.app/modules');
           setData(response.data);
         } catch (error) {
           console.error('Error fetching video playlist:', error);
@@ -30,7 +30,7 @@ const Home = () => {
 
       const unlockVideo = async (index) => {
         try {
-          await axios.put(`http://localhost:5000/modules/lessons/${index}`);
+          await axios.put(`https://lms-server-indol.vercel.app/modules/lessons/${index}`);
           fetchVideoPlaylist();
         } catch (error) {
           console.error('Error unlocking video:', error);

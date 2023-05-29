@@ -6,7 +6,7 @@ import Fade from 'react-reveal/Fade'
 const OurService = () => {
     const [services, setServices] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/allservices')
+        fetch('https://lms-server-indol.vercel.app/allservices')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
