@@ -55,7 +55,7 @@ export const router = createBrowserRouter([
             {
                 path: '/services/:id',
                 element: <ServiceDetails></ServiceDetails>,
-                // loader:({params})=>fetch(`https://lms-server-indol.vercel.app/services/${params._id}`)
+                loader:({params})=>fetch(`http://localhost:5000/services/${params.id}`)
             }
         ])
     }
