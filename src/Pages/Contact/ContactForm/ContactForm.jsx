@@ -30,9 +30,9 @@ const ContactForm = () => {
                         </div>
                         <div className='mx-3  mt-5'>
                             <p className='mb-3 mt-5'>Message</p>
-                            <textarea className=' input input-bordered w-full p-20'></textarea>
+                            <textarea className=' input input-bordered w-full p-20' placeholder='Write Your Message Here'></textarea>
                         </div>
-                        <div className='mx-3  mt-5'>
+                        <div className='mx-3  my-5'>
                             <button className='btn  w-full'>Submit</button>
                         </div>
                     </form>
