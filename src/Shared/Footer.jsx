@@ -14,7 +14,6 @@ const Footer = () => {
                 <div className='ml-5'>
                     <Link to='/courses'> <h1 className="link link-hover text-white">Courses</h1></Link>
                     <Link to='/collaboration'> <h1 className="link link-hover text-white">Collaboration</h1></Link>
-                    <Link to='/contact'> <h1 className="link link-hover text-white">Contact</h1></Link>
                 </div>
                 <div className='ml-5'>
                     <h1 className=" text-white">sayhi@swachhakshar.com</h1>

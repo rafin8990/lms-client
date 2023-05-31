@@ -61,7 +61,7 @@ const Navbar = () => {
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/services'>Services</Link></li>
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/about'>About</Link></li>
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/courses'>Courses</Link></li>
-                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/collaboration'>Collaboration</Link></li>
+                   j         <li className='text-xl text-white hover:text-yellow-300'><Link to='/collaboration'>Collaboration</Link></li>
                             <li className='text-xl text-white hover:text-yellow-300'><Link to='/contact'>Contact</Link></li>
                             {
                                 user?.uid && <li className='text-xl text-white hover:text-yellow-300'><Link to='/dashboard'>Dashboard</Link></li>
@@ -79,7 +79,7 @@ const Navbar = () => {
                                         <li onClick={logOut} className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
                                     </div>
                                     :
-                                    <li className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
+                                    <li className='btn bg-[#FA383E] text-white border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
                             }
                         </div>
                     </div>
@@ -92,7 +92,7 @@ const Navbar = () => {
                                 <li onClick={logOut} className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
                             </div>
                             :
-                            <li className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
+                            <li className='btn bg-[#FA383E] text-white border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
                     }
                 </div>
             </div>
