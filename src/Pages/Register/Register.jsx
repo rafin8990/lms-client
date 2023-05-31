@@ -47,12 +47,12 @@ const Register = () => {
             .catch(error => console.error(error))
     }
     return (
-        <div className='min-h-screen lg:flex justify-center items-center bg-[#FCD752]'>
+        <div className='min-h-screen lg:flex justify-center items-center px-3 bg-[#FCD752]'>
             <div data-aos="slide-right">
                 <Content></Content>
             </div>
-            <div data-aos="slide-left" className='lg:ml-10'>
-                <div className='w-96  bg-blue-950  p-4 rounded-2xl shadow-2xl hover:shadow-green-300'>
+            <div data-aos="slide-left" className='lg:ml-10 py-10'>
+                <div className='w-[350px] lg:w-96  bg-blue-950  p-4 rounded-2xl shadow-2xl hover:shadow-green-300'>
                     <form onSubmit={handleSubmit(handleRegister)}>
                         <div>
                             <p className=' my-2 text-white'>Name:</p>

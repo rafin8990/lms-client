@@ -15,12 +15,12 @@ const Footer = () => {
                     <Link to='/courses'> <h1 className="link link-hover text-white">Courses</h1></Link>
                     <Link to='/collaboration'> <h1 className="link link-hover text-white">Collaboration</h1></Link>
                 </div>
-                <div className='ml-5'>
+                {/* <div className='ml-5'>
                     <h1 className=" text-white">sayhi@swachhakshar.com</h1>
                     <h1 className=" text-white">+91 9179 673 321</h1>
                     <h1 className=" text-white">145, Zone 2, GRP Colony, MP Nagar, <br />
                         Bhopal, MP - 462001</h1>
-                </div>
+                </div> */}
                 <div className='ml-5 mr-5 flex'>
                     <Link to='https://www.facebook.com'><h1 className="text-2xl ml-3 text-white"><FaFacebook></FaFacebook></h1></Link>
                     <Link to='https://www.instagram.com'><h1 className="text-2xl ml-3 text-white"><FaInstagramSquare></FaInstagramSquare></h1></Link>

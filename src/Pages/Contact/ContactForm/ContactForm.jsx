@@ -32,6 +32,9 @@ const ContactForm = () => {
                             <p className='mb-3 mt-5'>Message</p>
                             <textarea className=' input input-bordered w-full p-20'></textarea>
                         </div>
+                        <div className='mx-3  mt-5'>
+                            <button className='btn  w-full'>Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
