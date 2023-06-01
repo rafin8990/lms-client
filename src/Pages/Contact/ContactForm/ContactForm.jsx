@@ -33,7 +33,7 @@ const ContactForm = () => {
                             <textarea className=' input input-bordered w-full p-20' placeholder='Write Your Message Here'></textarea>
                         </div>
                         <div className='mx-3  my-5'>
-                            <button className='btn  w-full'>Submit</button>
+                            <button className='btn bg-black text-white  w-full'>Submit</button>
                         </div>
                     </form>
                 </div>
