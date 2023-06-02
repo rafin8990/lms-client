@@ -15,7 +15,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
                             <div className='flex items-end'>
-                                <Link to='/'><h2 className="font1 text-2xl  text-white ">Swachh Akshar</h2></Link>
+                                <Link to='/'><h2 className="font1 text-2xl  text-white ">Swachh <br /> Akshar</h2></Link>
                                 <img className='w-3 ml-2' src={reddot} alt="" />
                             </div>
                         </a>
@@ -82,10 +82,10 @@ const Navbar = () => {
                                 user?.uid ?
                                     <div className='flex items-center'>
                                         <li className='text-base-100 mr-5 mt-3'>{user?.displayName}</li>
-                                        <li onClick={logOut} className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
+                                        <li onClick={logOut} className='btn bg-[#FA383E] font1 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
                                     </div>
                                     :
-                                    <li className='btn bg-[#FA383E] text-white border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
+                                    <li className='btn bg-[#FA383E] text-white font1 border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>
                             }
                         </div>
                     </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
                         user?.uid ?
                             <div className='flex items-center'>
                                 <li className='text-base-100 mr-5 mt-3'>{user?.displayName}</li>
-                                <li onClick={logOut} className='btn bg-yellow-300 border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
+                                <li onClick={logOut} className='btn bg-[#FA383E] border-none btn-sm btn-outline rounded-lg mt-3'>Log Out</li>
                             </div>
                             :
                             <li className='btn bg-[#FA383E] text-white border-none btn-sm btn-outline rounded-lg mt-3'><Link to='/login'>Login</Link></li>

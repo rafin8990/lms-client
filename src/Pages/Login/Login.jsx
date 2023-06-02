@@ -47,25 +47,25 @@ const Login = () => {
                     <Content></Content>
                 </div>
                 <div data-aos="slide-left" className=' py-10 md:ml-10'>
-                    <div className='w-[350px] bg-[#FA383E]  p-4 rounded-2xl shadow-2xl hover:shadow-green-300'>
+                    <div className='w-[350px] bg-[#FA383E]  p-4 rounded-2xl shadow-2xl hover:shadow-red-300'>
                         <form onSubmit={handleSubmit(handleLogin)}>
                             <div>
                                 <p className=' my-2 text-white'>Email:</p>
                                 <input {...register("email", { required: "email is required" })} type="email" placeholder="Enter Email" className="input input-bordered w-full" />
-                                {errors.email && <p className="text-red-600">{errors.email?.message}</p>}
+                                {errors.email && <p className="text-black">{errors.email?.message}</p>}
                             </div>
                             <div>
                                 <p className=' my-2 text-white'>Password:</p>
                                 <input {...register("password", { required: "Password is required" })} type="Password" placeholder="Enter Password" className="input input-bordered w-full" />
-                                {errors.password && <p className="text-red-600">{errors.password?.message}</p>}
+                                {errors.password && <p className="text-black">{errors.password?.message}</p>}
                             </div>
                             <div>
-                                <button type='submit' className='btn btn-danger w-full my-2'>Login</button>
+                                <button type='submit' className='btn bg-black w-full my-2'>Login</button>
                                 <p>{loginError}</p>
                             </div>
 
                             <div className='divider text-white'>Or</div>
-                            <button onClick={handleGoogle} className='btn btn-warning w-full'>SignIn With Google</button>
+                            <button onClick={handleGoogle} className='btn bg-black w-full'>SignIn With Google</button>
                         </form>
                         <p className='my-2 text-white'>New to SWachh Akshar LMS? <Link className='text-blue-500 hover:underline' to='/register'>Please register</Link></p>
 

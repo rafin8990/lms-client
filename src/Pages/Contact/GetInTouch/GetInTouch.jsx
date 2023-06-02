@@ -11,7 +11,7 @@ import Fade from 'react-reveal/Fade'
 
 const GetInTouch = () => {
     return (
-        <div className='my-10'>
+        <div className='py-10'>
             <div className='md:flex justify-center items-center'>
                 <div>
 
