@@ -47,7 +47,7 @@ const Register = () => {
             .catch(error => console.error(error))
     }
     return (
-        <div className='min-h-screen lg:flex justify-center items-center px-3 bg-[#FCD752]'>
+        <div className='min-h-screen md:flex justify-center items-center px-3 bg-[#FCD752]'>
             <div data-aos="slide-right">
                 <Content></Content>
             </div>

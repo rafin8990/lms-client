@@ -5,9 +5,9 @@ import { Fade } from 'react-reveal';
 
 const Collaboration = () => {
     return (
-        <div className=' bg-[#FFFAE8]'>
-            <div className=' lg:p-32'>
-                <div className='mt-10 md:flex justify-around items-center'>
+        <div className=' bg-[#FFFAE8] min-h-screen'>
+            <div className='md:py-20 lg:p-32 '>
+                <div className=' md:flex justify-around items-center'>
                     <Fade left>
                         <div className='mx-4 mb-4 md:w-1/2 flex justify-center '>
                             <img className='md:w-2/3 rounded-xl' src={pic} alt="" />

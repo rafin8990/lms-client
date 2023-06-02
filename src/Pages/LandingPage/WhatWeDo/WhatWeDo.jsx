@@ -12,12 +12,12 @@ const WhatWeDo = () => {
             .then(data => setServices(data))
     }, [])
     return (
-        <div className='bg-[#FFFAE8] lg:p-32'>
+        <div className='lg:p-32'>
             <Fade left>
-                <h1 className='text-xl md:text-4xl text-[#FA383E] mt-5 text-center font-bold font-sans'>What We Do</h1>
+                <h1 className='text-xl md:text-4xl text-[#FA383E] mt-5 text-center font-bold font1'>WHAT WE DO</h1>
             </Fade>
             <Fade right>
-                <p className='text-center mt-5 mx-5 lg:mx-0'>Swachh Akshar provides service to improve your public image. Be it brand, political figure, public figure or business figure. <br />
+                <p className='font-2 text-center mt-5 mx-5 lg:mx-0'>Swachh Akshar provides service to improve your public image. Be it brand, political figure, public figure or business figure. <br />
                     We give our best to make your good will to be eminent to the general public.</p>
             </Fade>
 
@@ -26,15 +26,15 @@ const WhatWeDo = () => {
                     services.map(service => <div key={service._id} className="card w-96 shadow-xl px-3 image-full">
                         <figure><img src={img} alt="Shoes" /></figure>
                         <div className="card-body">
-                            <h2 className="card-title text-white">{service.name}</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium nulla, odio, earum blanditiis.</p>
-                            <Link to={`/services/${service._id}`}><button className='btn mt-5'>View details</button></Link>
+                            <h2 className=" card-title text-[#FA383E] font1">{service.name}</h2>
+                            <p className='font2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium nulla, odio, earum blanditiis.</p>
+                            <Link to={`/services/${service._id}`}><button className='btn hover:bg-black text-white bg-[#FA383E] border-none mt-5'>View details</button></Link>
                         </div>
                     </div>)
                 }
             </div>
             <div className='flex justify-center py-10'>
-                <Link to='/services'><button className='btn btn-outline'>Show More</button></Link>
+                <Link to='/services'><button className='btn btn-outline border-[#FA383E] hover:bg-[#FA383E] hover:text-white hover:border-none font2'>Show More</button></Link>
             </div>
         </div>
     );

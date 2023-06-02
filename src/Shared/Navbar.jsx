@@ -1,6 +1,9 @@
 import React, { useContext, useState } from 'react';
+import './Css/Navbar.css'
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../Context/AuthProvider';
+import reddot from '../assets/header/Basic_red_dot.png'
+
 
 const Navbar = () => {
     const { user, logOut } = useContext(AuthContext)
@@ -11,7 +14,10 @@ const Navbar = () => {
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <Link to='/'><h2 className="text-2xl font-bold text-white">Swachh Akshar</h2></Link>
+                            <div className='flex items-end'>
+                                <Link to='/'><h2 className="font1 text-2xl  text-white ">Swachh Akshar</h2></Link>
+                                <img className='w-3 ml-2' src={reddot} alt="" />
+                            </div>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -57,21 +63,21 @@ const Navbar = () => {
                             }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/'>Home</Link></li>
-                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/services'>Services</Link></li>
-                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/about'>About</Link></li>
-                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/courses'>Courses</Link></li>
-                   j         <li className='text-xl text-white hover:text-yellow-300'><Link to='/collaboration'>Collaboration</Link></li>
-                            <li className='text-xl text-white hover:text-yellow-300'><Link to='/contact'>Contact</Link></li>
+                            <li className='font1 text-xl text-white hover:text-[#FA383E]'><Link to='/'>Home</Link></li>
+                            <li className='font1 text-xl text-white hover:text-[#FA383E]'><Link to='/services'>Services</Link></li>
+                            <li className='font1 text-xl text-white hover:text-[#FA383E]'><Link to='/about'>About</Link></li>
+                            <li className='font1 text-xl text-white hover:text-[#FA383E]'><Link to='/courses'>Courses</Link></li>
+                            <li className='font1 text-xl text-white hover:text-[#FA383E]'><Link to='/collaboration'>Collaboration</Link></li>
+                            <li className='font1 text-xl text-white hover:text-[#FA383E]'><Link to='/contact'>Contact</Link></li>
                             {
-                                user?.uid && <li className='text-xl text-white hover:text-yellow-300'><Link to='/dashboard'>Dashboard</Link></li>
+                                user?.uid && <li className='text-xl text-white hover:text-[#FA383E]'><Link to='/dashboard'>Dashboard</Link></li>
                             }
 
 
 
                         </ul>
 
-                        <div className="mt-3 space-y-2 lg:hidden md:inline-block">
+                        <div className="mt-3 space-y-2 md:hidden">
                             {
                                 user?.uid ?
                                     <div className='flex items-center'>

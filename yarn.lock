@@ -1703,7 +1703,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.5.10, prop-types@^15.5.8:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -1774,6 +1774,13 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-google-font-loader@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-google-font-loader/-/react-google-font-loader-1.1.0.tgz#9c9ae97aae3d2177e922c9bf4ab6312b903abc79"
+  integrity sha512-mnPYxBdhYEldTtREYPKllbmMvCGkTbpdmNjR6iTM3eTNWcg17OrfXjq9HRDZe+1+mhnUnI/AOcpvG0LIQPcLIw==
+  dependencies:
+    prop-types "^15.6.2"
 
 react-google-maps@^9.4.5:
   version "9.4.5"
