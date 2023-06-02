@@ -42,12 +42,12 @@ const Login = () => {
             .catch(error => console.error(error))
     }
     return (
-            <div className=' md:flex justify-center items-center px-3 min-h-screen bg-[#FCD752]'>
+            <div className=' md:flex justify-center items-center px-3 min-h-screen bg-black'>
                 <div data-aos="slide-right">
                     <Content></Content>
                 </div>
                 <div data-aos="slide-left" className=' py-10 md:ml-10'>
-                    <div className='w-[350px] bg-blue-950  p-4 rounded-2xl shadow-2xl hover:shadow-green-300'>
+                    <div className='w-[350px] bg-[#FA383E]  p-4 rounded-2xl shadow-2xl hover:shadow-green-300'>
                         <form onSubmit={handleSubmit(handleLogin)}>
                             <div>
                                 <p className=' my-2 text-white'>Email:</p>
@@ -60,7 +60,7 @@ const Login = () => {
                                 {errors.password && <p className="text-red-600">{errors.password?.message}</p>}
                             </div>
                             <div>
-                                <button type='submit' className='btn btn-success w-full my-2'>Login</button>
+                                <button type='submit' className='btn btn-danger w-full my-2'>Login</button>
                                 <p>{loginError}</p>
                             </div>
 
