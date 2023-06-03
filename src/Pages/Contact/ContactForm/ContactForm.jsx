@@ -4,8 +4,8 @@ import Fade from 'react-reveal/Fade'
 const ContactForm = () => {
     return (
         <Fade right>
-            <div className=' my-10 border rounded-lg bg-[#FA383E]'>
-                <h1 className=' text-2xl md:text-4xl font-bold text-center mt-10'>lets Work together</h1>
+            <div className=' my-10 border rounded-lg bg-'>
+                <h1 className=' text-2xl md:text-4xl font1 font-bold text-center mt-10 mb-2'>Let's Work Together</h1>
                 <div>
                     <form className=''>
                         <div className='md:flex justify-center'>

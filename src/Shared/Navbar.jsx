@@ -15,8 +15,8 @@ const Navbar = () => {
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
                             <div className='flex items-end'>
-                                <Link to='/'><h2 className="font1 text-2xl  text-white ">Swachh <br /> Akshar</h2></Link>
-                                <img className='w-3 ml-2' src={reddot} alt="" />
+                                <Link to='/'><h2 className="font1 text-4xl  text-white ">Swachh  Akshar</h2></Link>
+                                <img className='w-2 ml-[5px] mb-[5px]' src={reddot} alt="" />
                             </div>
                         </a>
                         <div className="md:hidden">
