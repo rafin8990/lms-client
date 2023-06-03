@@ -6,7 +6,7 @@ const ExtraSection = () => {
         <div className='lg:p-20  mt-2'>
             <div className='md:flex justify-center items-center lg:w-[1440px] mx-auto '>
                 <Fade left>
-                    <h1 className='font1 text-3xl  lg:text-6xl py-5 px-5 font-bold md:w-1/2'>Lorem Ipsum is simply dummy text</h1>
+                    <h1 className='font1 text-3xl  lg:text-6xl py-5 px-5 font-bold text-red-500 md:w-1/2'>Lorem Ipsum is simply dummy text</h1>
                 </Fade>
                 <div className=' divider divider-horizontal'></div>
                 <Fade right>
