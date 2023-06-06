@@ -25,8 +25,8 @@ const ExtraSection = () => {
             data-aos-duration="2000"
             className="font1 text-2xl md:text-4xl lg:text-6xl text-white"
           >
-            You Need Cheap Content Writing For Your Business? Contenta Is The
-            Solution!
+            You Need Cheap Content Writing For Your Business? Swachh Akshar Is
+            The Solution!
           </h1>
         </div>
         <div className="md:flex justify-center items-center md:w-1/2">
