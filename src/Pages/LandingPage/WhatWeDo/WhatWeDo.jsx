@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade'
 import { Link } from 'react-router-dom';
 import img from '../../../assets/header/young-woman-teacher-wearing-glasses-sitting-school-desk-front-blackboard-classroom-globe-checking-class-register-holding-pointer-looking-displeased-raising-arm-displeasure.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 const WhatWeDo = () => {
@@ -23,7 +26,9 @@ const WhatWeDo = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:w-[1440px] mt-20 mx-auto '>
                 {
-                    services.map(service => <div key={service._id} className="card w-96 shadow-xl px-3 image-full">
+                    services.map(service => <div 
+                    data-aos='zoom-in'
+                    key={service._id} className="card w-96 shadow-xl px-3 image-full">
                         <figure><img src={img} alt="Shoes" /></figure>
                         <div className="card-body">
                             <h2 className=" card-title text-[#FA383E] font1">{service.name}</h2>

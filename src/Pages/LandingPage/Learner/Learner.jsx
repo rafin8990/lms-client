@@ -14,7 +14,11 @@ const Learner = () => {
             </Fade>
            
                 <div className='mt-10 lg:my-20 grid grid-cols-1 md:grid-cols-2  gap-5 lg:w-[1440px] mx-2 lg:mx-auto'>
-                    <div data-aos='slide-down' className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
+                    <div 
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
                         <div>
                             <p className='text-xl font2 hover:text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima laborum, reiciendis sapiente dolorum minus nam maxime molestiae ab ullam velit omnis qui commodi! Perferendis culpa esse accusantium facere consequuntur temporibus.</p>
                         </div>
@@ -30,7 +34,11 @@ const Learner = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos='slide-down' className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
+                    <div 
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
                         <div>
                             <p className='text-xl font2 hover:text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima laborum, reiciendis sapiente dolorum minus nam maxime molestiae ab ullam velit omnis qui commodi! Perferendis culpa esse accusantium facere consequuntur temporibus.</p>
                         </div>
@@ -46,7 +54,11 @@ const Learner = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos='slide-down' className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
+                    <div 
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
                         <div>
                             <p className='text-xl  font2 hover:text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima laborum, reiciendis sapiente dolorum minus nam maxime molestiae ab ullam velit omnis qui commodi! Perferendis culpa esse accusantium facere consequuntur temporibus.</p>
                         </div>
@@ -62,7 +74,11 @@ const Learner = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos='slide-down' className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
+                    <div 
+                    data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1000"
+                    className='bg-gray-100 hover:bg-[#FA383E] hover:text-white rounded-2xl p-10'>
                         <div>
                             <p className='text-xl font2 hover:text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima laborum, reiciendis sapiente dolorum minus nam maxime molestiae ab ullam velit omnis qui commodi! Perferendis culpa esse accusantium facere consequuntur temporibus.</p>
                         </div>

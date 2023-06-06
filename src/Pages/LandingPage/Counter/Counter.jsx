@@ -2,6 +2,9 @@ import React from 'react';
 import CountUp from 'react-countup';
 import './Counter.css'
 import Fade from 'react-reveal/Fade';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
+AOS.init();
 
 
 
@@ -17,26 +20,40 @@ const Counter = () => {
                     <p className='font2 text-white text-center mx-10 lg:mx-0'>Some facts which will tell you more about us…</p>
                 </Fade>
                 <div className='lg:w-[1440px] mx-5 lg:mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
-                    <Fade left>
-                        <div className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
+                   
+                        <div 
+                        data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"
+                        className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
                             <h1 className='text-7xl text-white font-bold'><CountUp end={38} /></h1>
                             <p className='text-xl text-white'>Clients</p>
                         </div>
-                        <div className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
+                        <div
+                        data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"
+                        className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
                             <h1 className='text-7xl text-white font-bold'><CountUp end={17} /></h1>
                             <p className='text-xl text-white'>Projects</p>
                         </div>
-                    </Fade>
-                    <Fade right>
-                        <div className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
+                    
+                        <div
+                        data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"
+                        className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
                             <h1 className='text-7xl text-white font-bold'><CountUp end={3324} /></h1>
                             <p className='text-xl text-white'>Content Written</p>
                         </div>
-                        <div className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
+                        <div
+                        data-aos="flip-right"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"
+                        className='p-10 bg-[#FA383E] rounded-2xl text-center my-3'>
                             <h1 className='text-7xl text-white font-bold'><CountUp end={15} /></h1>
                             <p className='text-xl text-white'>Worked With Brands</p>
                         </div>
-                    </Fade>
                 </div>
 
 
