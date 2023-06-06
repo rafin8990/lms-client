@@ -23,7 +23,7 @@ const ExtraSection = () => {
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
             data-aos-duration="2000"
-            className="text-2xl md:text-4xl lg:text-6xl text-white"
+            className="font1 text-2xl md:text-4xl lg:text-6xl text-white"
           >
             You Need Cheap Content Writing For Your Business? Contenta Is The
             Solution!
