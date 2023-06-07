@@ -14,7 +14,7 @@ const WhatWeDo = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div className="bg2 lg:p-32">
+    <div className="bg1 lg:p-32">
       <Fade left>
         <h1 className="text-xl md:text-4xl text-[#FA383E] mt-5 text-center font-bold font1">
           WHAT WE DO

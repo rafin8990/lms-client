@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 AOS.init();
 const ExtraSection = () => {
   return (
-    <div className="bg lg:p-20 py-5">
+    <div className="bg1 lg:p-20 py-5">
       <div className="md:flex ">
         <div className="md:w-1/2">
           <p
