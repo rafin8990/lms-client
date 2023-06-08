@@ -1,53 +1,53 @@
 import React from "react";
 import "./EtraSection.css";
-import phone from "../../../assets/header/I-17.png";
+import { TypeAnimation } from "react-type-animation";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 const ExtraSection = () => {
   return (
-    <div className="bg1 lg:p-20 py-5">
-      <div className="md:flex ">
-        <div className="md:w-1/2">
-          <p
-            data-aos="fade-up"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="2000"
-            className="font2 text-xl text-red-500 md:my-5"
-          >
-            ______ Promotion
-          </p>
+    <div className=" lg:p-20 py-5">
+      <div>
+        <div>
           <h1
             data-aos="fade-up"
             data-aos-offset="300"
             data-aos-easing="ease-in-sine"
             data-aos-duration="2000"
-            className="font1 text-2xl md:text-4xl lg:text-6xl text-white"
+            className="text-7xl text-center font1  text-red-500"
           >
-            You Need Cheap Content Writing For Your Business? Swachh Akshar Is
-            The Solution!
+            Collaboration
           </h1>
         </div>
-        <div className="md:flex justify-center items-center md:w-1/2">
-          <img
-            data-aos="fade-down"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="2000"
-            className="w-1/2 md:w-[400px]"
-            src={phone}
-            alt=""
-          />
-          <div
-            data-aos="fade-down"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="2000"
-            className="ml-5 order-1"
-          >
-            <h1 className="text-2xl text-white">Call For Business</h1>
-            <h1 className="text-2xl md:text-4xl text-red-500">123-234-1234</h1>
+        <div className="md:flex items-center">
+          <div id="text" className=" md:w-1/2">
+            <TypeAnimation
+              sequence={[
+                "Here is line one ",
+                2000,
+                "here is line two ",
+                2000,
+                "here is line 3",
+              ]}
+              speed={50}
+              style={{ fontSize: "2em" }}
+              wrapper="h2"
+              repeat={Infinity}
+            />
+          </div>
+          <div className="md:flex justify-center items-center md:w-1/2">
+            <div
+              data-aos="fade-down"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="2000"
+              className="ml-5 order-1"
+            >
+              <img
+                src="https://cdn.dribbble.com/users/4341791/screenshots/8574595/media/3cbca4ba607b111c4d4702f210062a62.gif"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -15,9 +15,9 @@ const WhatWeDo = () => {
       .then((data) => setServices(data));
   }, []);
   return (
-    <div className="bg1 lg:p-32">
+    <div className="bg3 lg:p-32">
       <Fade left>
-        <h1 className="text-xl md:text-4xl text-[#FA383E] mt-5 text-center font-bold font1">
+        <h1 className="text-xl md:text-4xl text-white mt-5 text-center font-bold font1">
           WHAT WE DO
         </h1>
       </Fade>
@@ -37,14 +37,14 @@ const WhatWeDo = () => {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             key={service._id}
-            className="card ml-5 md:ml-0 w-80 lg:w-96 bg-base-100 shadow-xl"
+            className="card ml-5 md:ml-0 w-80 lg:w-96  shadow-xl image-full"
           >
             <div className="card-body">
               <h2 className="card-title text-[#FA383E] font1">
                 {service.name}
               </h2>
               <p className="font2">{service.details}</p>
-              <div className="card-actions">
+              <div className="card-actions justify-end">
                 <Link to={`/services/${service._id}`}>
                   <button className="btn hover:bg-black text-white bg-[#FA383E] border-none mt-5">
                     View details

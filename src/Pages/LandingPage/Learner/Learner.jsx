@@ -9,7 +9,7 @@ const Learner = () => {
   return (
     <div className="bg-black lg:p-20">
       <Fade down>
-        <h1 className="font1 text-xl pt-10 md:text-4xl font-bold  text-red-500 text-center">
+        <h1 className="font1 text-xl pt-10 md:text-4xl font-bold  text-white text-center">
           Hear what our learners have to say
         </h1>
       </Fade>

@@ -1,0 +1,19 @@
+#text {
+    text-align: center;
+    font-size: 30px;
+  
+    color: black;
+    transition: all .6s ease-out;
+    display: block;
+}
+#text h2 {
+    background: -webkit-linear-gradient(#64000f, rgb(255, 0, 38));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    
+}
+#text{
+    margin-top: 5px;
+    margin-left: 0;
+}

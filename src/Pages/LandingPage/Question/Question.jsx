@@ -36,7 +36,9 @@ const Question = () => {
         >
           <div className="collapse collapse-plus bg-base-200 mt-2">
             <input type="checkbox" className="peer" />
-            <div className="collapse-title  text-xl ">Question 1</div>
+            <div className="collapse-title  text-xl ">
+              Q1: What Is the perpous of swachh Akshar
+            </div>
             <div className="collapse-content ">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -46,7 +48,9 @@ const Question = () => {
           </div>
           <div className="collapse collapse-plus bg-base-200 mt-2">
             <input type="checkbox" className="peer" />
-            <div className="collapse-title text-xl  ">Question 2</div>
+            <div className="collapse-title text-xl  ">
+              Q2: What Is the perpous of swachh Akshar
+            </div>
             <div className="collapse-content ">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -56,7 +60,9 @@ const Question = () => {
           </div>
           <div className="collapse collapse-plus bg-base-200 mt-2">
             <input type="checkbox" className="peer" />
-            <div className="collapse-title  text-xl ">Question 3</div>
+            <div className="collapse-title  text-xl ">
+              Q3: What Is the perpous of swachh Akshar
+            </div>
             <div className="collapse-content ">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -66,7 +72,9 @@ const Question = () => {
           </div>
           <div className="collapse collapse-plus bg-base-200 mt-2">
             <input type="checkbox" className="peer" />
-            <div className="collapse-title  text-xl ">Question 4</div>
+            <div className="collapse-title  text-xl ">
+              Q4: What Is the perpous of swachh Akshar
+            </div>
             <div className="collapse-content ">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -76,7 +84,9 @@ const Question = () => {
           </div>
           <div className="collapse collapse-plus bg-base-200 mt-2">
             <input type="checkbox" className="peer" />
-            <div className="collapse-title text-xl  ">Question 5</div>
+            <div className="collapse-title text-xl  ">
+              Q5: What Is the perpous of swachh Akshar
+            </div>
             <div className="collapse-content ">
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
