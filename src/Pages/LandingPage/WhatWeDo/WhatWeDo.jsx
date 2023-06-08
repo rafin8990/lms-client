@@ -8,6 +8,7 @@ AOS.init();
 
 const WhatWeDo = () => {
   const [services, setServices] = useState([]);
+  console.log(services);
   useEffect(() => {
     fetch("https://lms-server-indol.vercel.app/services")
       .then((res) => res.json())
@@ -42,9 +43,7 @@ const WhatWeDo = () => {
               <h2 className="card-title text-[#FA383E] font1">
                 {service.name}
               </h2>
-              <p className="font2">
-                If a dog chews shoes whose shoes does he choose?
-              </p>
+              <p className="font2">{service.details}</p>
               <div className="card-actions">
                 <Link to={`/services/${service._id}`}>
                   <button className="btn hover:bg-black text-white bg-[#FA383E] border-none mt-5">
