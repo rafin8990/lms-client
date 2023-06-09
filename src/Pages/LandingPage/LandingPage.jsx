@@ -5,6 +5,7 @@ import WhatWeDo from "./WhatWeDo/WhatWeDo";
 import Learner from "./Learner/Learner";
 import ExtraSection from "./ExtraSection/ExtraSection";
 import Question from "./Question/Question";
+import VideoSection from "./VideoSection/VideoSection";
 
 const LandingPage = () => {
   return (
@@ -12,6 +13,7 @@ const LandingPage = () => {
       <Header></Header>
       <Counter></Counter>
       <WhatWeDo></WhatWeDo>
+      <VideoSection></VideoSection>
       <Learner></Learner>
       <ExtraSection></ExtraSection>
       <Question></Question>
