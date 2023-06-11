@@ -16,9 +16,13 @@ const Navbar = () => {
               <div className="flex items-end">
                 {/* <Link to='/'><h2 className="font1 text-4xl  text-white ">Swachh  Akshar</h2></Link> */}
                 <Link to="/">
-                  <img src="https://i.ibb.co/S7KSR9r/logo-4.png" alt="" />
+                  <img
+                    className="w-52"
+                    src="https://i.ibb.co/Jxsw2LS/logo-5.png"
+                    alt=""
+                  />
                 </Link>
-                <img className="w-2 ml-[5px] mb-[5px]" src={reddot} alt="" />
+                {/* <img className="w-2 ml-[5px] mb-[5px]" src={reddot} alt="" /> */}
               </div>
             </a>
             <div className="md:hidden">
