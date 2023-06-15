@@ -4,7 +4,7 @@ import OurService from "./OurService/OurService";
 
 const Services = () => {
   return (
-    <div className="bg2">
+    <div className="bg3">
       {/* <KeyElements></KeyElements> */}
       <OurService></OurService>
     </div>

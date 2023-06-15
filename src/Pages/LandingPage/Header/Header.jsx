@@ -31,7 +31,7 @@ const Header = () => {
                 <div>
                   <img
                     className="w-52 my-2"
-                    src="https://i.ibb.co/Jxsw2LS/logo-5.png"
+                    // src="https://i.ibb.co/Jxsw2LS/logo-5.png"
                     alt=""
                   />
                   {/* <h3 className="text-lg md:text-2xl text-[#FA383E] my-3">
@@ -41,7 +41,7 @@ const Header = () => {
                     DISCOVER
                   </h1>
                   <h1 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold  leading-loose lg:mt-5">
-                    THE WRITTER{" "}
+                    THE WRITER{" "}
                   </h1>
                   <h1 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold leading-loose lg:mt-5">
                     WITHIN YOU
@@ -64,7 +64,7 @@ const Header = () => {
                 <div>
                   <img
                     className="w-52  my-2"
-                    src="https://i.ibb.co/Jxsw2LS/logo-5.png"
+                    // src="https://i.ibb.co/Jxsw2LS/logo-5.png"
                     alt=""
                   />
                   {/* <h3 className="text-lg md:text-2xl text-[#FA383E] my-3">
@@ -74,7 +74,7 @@ const Header = () => {
                     DISCOVER
                   </h1>
                   <h1 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold  leading-loose lg:mt-5">
-                    THE WRITTER{" "}
+                    THE WRITER{" "}
                   </h1>
                   <h1 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold  leading-loose lg:mt-5">
                     WITHIN YOU
@@ -97,7 +97,7 @@ const Header = () => {
                 <div>
                   <img
                     className="w-52  my-2"
-                    src="https://i.ibb.co/Jxsw2LS/logo-5.png"
+                    // src="https://i.ibb.co/Jxsw2LS/logo-5.png"
                     alt=""
                   />
                   {/*  <h3 className="text-lg md:text-2xl text-[#FA383E] my-3">
@@ -107,7 +107,7 @@ const Header = () => {
                     DISCOVER
                   </h1>
                   <h1 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold  leading-loose lg:mt-5">
-                    THE WRITTER{" "}
+                    THE WRITER{" "}
                   </h1>
                   <h1 className="text-2xl md:text-4xl lg:text-7xl text-white font-bold  leading-loose lg:mt-5">
                     WITHIN YOU

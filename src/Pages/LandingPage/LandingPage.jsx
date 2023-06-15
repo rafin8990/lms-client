@@ -4,8 +4,8 @@ import Counter from "./Counter/Counter";
 import WhatWeDo from "./WhatWeDo/WhatWeDo";
 import Learner from "./Learner/Learner";
 import ExtraSection from "./ExtraSection/ExtraSection";
-import Question from "./Question/Question";
 import VideoSection from "./VideoSection/VideoSection";
+import Clients from "./Clients/Clients";
 
 const LandingPage = () => {
   return (
@@ -15,8 +15,8 @@ const LandingPage = () => {
       <WhatWeDo></WhatWeDo>
       <VideoSection></VideoSection>
       <Learner></Learner>
+      <Clients></Clients>
       <ExtraSection></ExtraSection>
-      <Question></Question>
     </div>
   );
 };

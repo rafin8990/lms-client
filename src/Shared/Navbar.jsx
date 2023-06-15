@@ -2,13 +2,13 @@ import React, { useContext, useState } from "react";
 import "./Css/Navbar.css";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../Context/AuthProvider";
-import reddot from "../assets/header/Basic_red_dot.png";
+// import reddot from "../assets/header/Basic_red_dot.png";
 
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full bg-[#262D36] shadow">
+    <nav className="w-full bg-black shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -139,6 +139,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-// export default Navbar;
-// export default Navbar;
-// export default Navbar;
