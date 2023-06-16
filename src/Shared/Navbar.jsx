@@ -80,7 +80,14 @@ const Navbar = () => {
                 <Link to="/about">About</Link>
               </li>
               <li className="font1 text-xl text-white hover:text-[#FA383E]">
-                <Link to="/courses">Courses</Link>
+                <Link to="/courses">
+                  {" "}
+                  <img
+                    className="w-32"
+                    src="https://i.ibb.co/7pKHrRK/1.png"
+                    alt=""
+                  />
+                </Link>
               </li>
               <li className="font1 text-xl text-white hover:text-[#FA383E]">
                 <Link to="/collaboration">Collaboration</Link>

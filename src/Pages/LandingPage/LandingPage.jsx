@@ -12,10 +12,10 @@ const LandingPage = () => {
     <div>
       <Header></Header>
       <Counter></Counter>
+      <Clients></Clients>
       <WhatWeDo></WhatWeDo>
       <VideoSection></VideoSection>
       <Learner></Learner>
-      <Clients></Clients>
       <ExtraSection></ExtraSection>
     </div>
   );
