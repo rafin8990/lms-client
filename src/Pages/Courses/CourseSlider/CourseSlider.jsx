@@ -7,7 +7,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 const CourseSlider = () => {
   return (
-    <div className="py-5">
+    <div className="py-5  mx-5">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -23,7 +23,7 @@ const CourseSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className=" bg md:h-[700px]">
+          <div className=" bg md:h-[580px]">
             <div className=" w-1/2 font1 lg:pt-32">
               <div className="flex justify-center items-center">
                 <div>

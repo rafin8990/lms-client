@@ -12,7 +12,7 @@ const LandingPage = () => {
     <div>
       <Header></Header>
       <Counter></Counter>
-      <Clients></Clients>
+      {/* <Clients></Clients> */}
       <WhatWeDo></WhatWeDo>
       <VideoSection></VideoSection>
       <Learner></Learner>

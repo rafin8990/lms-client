@@ -83,7 +83,7 @@ const Navbar = () => {
                 <Link to="/courses">
                   {" "}
                   <img
-                    className="w-32"
+                    className=" w-24"
                     src="https://i.ibb.co/7pKHrRK/1.png"
                     alt=""
                   />

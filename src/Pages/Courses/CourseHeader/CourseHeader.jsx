@@ -8,6 +8,18 @@ const CourseHeader = () => {
     <div className="py-32 bg-black">
       <div className="md:flex justify-between items-center">
         <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="md:w-1/3 my-5 mx-5"
+        >
+          <img
+            className=""
+            src="https://www.tricasol.com/wp-content/uploads/2022/11/service-5.png"
+            alt=""
+          />
+        </div>
+        <div
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
@@ -29,18 +41,6 @@ const CourseHeader = () => {
               Duration: 6 Months
             </h3>
           </div>
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="md:w-1/3 my-5 mx-5"
-        >
-          <img
-            className=""
-            src="https://www.tricasol.com/wp-content/uploads/2022/11/service-5.png"
-            alt=""
-          />
         </div>
       </div>
     </div>
