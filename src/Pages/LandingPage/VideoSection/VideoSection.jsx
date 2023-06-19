@@ -15,5 +15,5 @@ const VideoSection = () => {
     </div>
   );
 };
-
+//this is video section
 export default VideoSection;
