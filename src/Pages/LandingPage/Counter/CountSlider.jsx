@@ -5,9 +5,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
-const CourseSlider = () => {
+const CountSlider = () => {
   return (
-    <div className="py-5  mx-5">
+    <div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -16,35 +16,44 @@ const CourseSlider = () => {
           disableOnInteraction: false,
         }}
         /*  pagination={{
-                  clickable: true,
-              }} */
+                clickable: true,
+            }} */
 
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
-          <div>
+          <div className=" flex justify-center items-center">
             <img
-              className=" h-[380px] rounded-xl"
-              src="https://d2jyir0m79gs60.cloudfront.net/news/images/successful-college-student-lg.png"
+              className=" w-40"
+              src="https://i.ibb.co/p3hBmkg/logoo.png"
               alt=""
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className=" flex justify-center items-center">
             <img
-              className=" h-[380px] rounded-xl"
-              src="https://ocdn.eu/images/pulscms/MzM7MDA_/cb1b6fa6-3e27-42e8-81a5-58fe53a89799.jpeg"
+              className="w-40 "
+              src="https://i.ibb.co/VJv626Y/logooo.png"
               alt=""
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div>
+          <div className=" flex justify-center items-center">
             <img
-              className=" h-[380px] rounded-xl"
-              src="https://uploads-ssl.webflow.com/62fc39d4a8950f2d6f3b35f6/6310b2996a18aa74e6dab98a_Beginning-of-German-University.jpeg"
+              className="w-40"
+              src="https://i.ibb.co/RvndQHT/logo.png"
+              alt=""
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className=" flex justify-center items-center">
+            <img
+              className="w-40"
+              src="https://i.ibb.co/cDVyHdw/logoooooo.png"
               alt=""
             />
           </div>
@@ -54,4 +63,4 @@ const CourseSlider = () => {
   );
 };
 
-export default CourseSlider;
+export default CountSlider;

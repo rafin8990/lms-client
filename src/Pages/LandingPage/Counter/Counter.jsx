@@ -4,6 +4,8 @@ import "./Counter.css";
 import Fade from "react-reveal/Fade";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import CounterSilder from "./CounterSilder";
+import CountSlider from "./CountSlider";
 AOS.init();
 
 const Counter = () => {
@@ -21,16 +23,8 @@ const Counter = () => {
           </p>
         </Fade>
         <div className="lg:w-[1440px] mx-5 lg:mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
-          <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            className="p-5 lg:p-10 bg-[#FA383E] rounded-2xl text-center my-3"
-          >
-            <h1 className="text-7xl text-white font-bold">
-              <CountUp end={38} />
-            </h1>
-            <p className="text-xl text-white">Clients</p>
+          <div className="p-5 lg:p-0 bg-white rounded-2xl text-center my-3">
+            <CounterSilder></CounterSilder>
           </div>
           <div
             data-aos="flip-left"
@@ -55,16 +49,8 @@ const Counter = () => {
             </h1>
             <p className="text-xl text-white">Content Written</p>
           </div>
-          <div
-            data-aos="flip-right"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            className="p-5 lg:p-10 bg-[#FA383E] rounded-2xl text-center my-3"
-          >
-            <h1 className="text-7xl text-white font-bold">
-              <CountUp end={15} />
-            </h1>
-            <p className="text-xl text-white">Worked With Brands</p>
+          <div className="p-5 lg:p-0 bg-white rounded-2xl text-center my-3">
+            <CountSlider></CountSlider>
           </div>
         </div>
       </div>
