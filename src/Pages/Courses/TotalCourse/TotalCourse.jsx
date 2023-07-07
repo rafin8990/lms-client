@@ -7,7 +7,7 @@ const TotalCourse = () => {
       <div className="md:flex items-center">
         <div className="md:w-2/3">
           <div>
-            <h1 className="text-2xl md:text-4xl text-center my-5 text-red-500">
+            <h1 className="font1 text-2xl md:text-4xl text-center mb-16 text-red-500">
               Benefits Of the Courses
             </h1>
           </div>
@@ -98,13 +98,13 @@ const TotalCourse = () => {
             </div>
           </div>
           <div className="mt-5 flex justify-center">
-            <button className="btn btn-sm bg-red-500 text-white  md:px-36">
+            <button className="font1 btn bg-red-500 text-white text-3xl md:px-36">
               Join The Courses
             </button>
           </div>
         </div>
 
-        <div className="md:w-1/3">
+        <div className="md:w-1/3 mt-10">
           <CourseSlider></CourseSlider>
         </div>
       </div>

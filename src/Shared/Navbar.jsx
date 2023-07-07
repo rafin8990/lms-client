@@ -17,7 +17,7 @@ const Navbar = () => {
                 {/* <Link to='/'><h2 className="font1 text-4xl  text-white ">Swachh  Akshar</h2></Link> */}
                 <Link to="/">
                   <img
-                    className="w-52"
+                    className="w-52 ml-0"
                     src="https://i.ibb.co/Jxsw2LS/logo-5.png"
                     alt=""
                   />

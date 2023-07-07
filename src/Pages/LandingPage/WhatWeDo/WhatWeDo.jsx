@@ -43,7 +43,7 @@ const WhatWeDo = () => {
               <h2 className="card-title text-[#FA383E] font1">
                 {service.name}
               </h2>
-              <p className="font2">{service.details}</p>
+              <p className="font2">{service.header}</p>
               <div className="card-actions justify-end">
                 <Link to={`/services/${service._id}`}>
                   <button className="btn hover:bg-black text-white bg-[#FA383E] border-none mt-5">

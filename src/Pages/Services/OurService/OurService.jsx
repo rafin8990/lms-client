@@ -27,7 +27,7 @@ const OurService = () => {
                 <h2 className="card-title font1 text-[#FA383E]">
                   {service.name}
                 </h2>
-                <p>{service.details}</p>
+                <p>{service.header}</p>
                 <Link to={`/services/${service._id}`}>
                   <button className="btn hover:bg-black text-white bg-[#FA383E] border-none mt-5">
                     View details

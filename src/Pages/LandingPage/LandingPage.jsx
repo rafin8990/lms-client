@@ -16,7 +16,7 @@ const LandingPage = () => {
       <WhatWeDo></WhatWeDo>
       <VideoSection></VideoSection>
       <Learner></Learner>
-      <ExtraSection></ExtraSection>
+      {/* <ExtraSection></ExtraSection> */}
     </div>
   );
 };
