@@ -52,7 +52,7 @@ const CounterSilder = () => {
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
-              className=""
+              className="mt-5"
               src="https://i.ibb.co/ZfQVgyj/logoooo.png"
               alt=""
             />
