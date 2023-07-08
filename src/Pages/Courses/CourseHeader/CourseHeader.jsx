@@ -43,7 +43,7 @@ const CourseHeader = () => {
               Duration: ....................
             </h3>
           </div>
-          <div className="flex justify-center items-center  mt-10">
+          {/* <div className="flex justify-center items-center  mt-10">
             <p className="text-4xl text-white ml-5">
               <FaFacebook></FaFacebook>
             </p>
@@ -56,7 +56,7 @@ const CourseHeader = () => {
             <p className="text-4xl text-white ml-5">
               <FaLinkedin></FaLinkedin>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

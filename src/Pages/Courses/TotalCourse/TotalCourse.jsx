@@ -1,6 +1,8 @@
 import React from "react";
 import CourseSlider from "../CourseSlider/CourseSlider";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const TotalCourse = () => {
   return (
     <div className="lg:py-32 bg-black">
@@ -11,8 +13,13 @@ const TotalCourse = () => {
               Benefits Of the Courses
             </h1>
           </div>
-          <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-10 lg:ml-0">
-            <div className="card w-80 md:w-96 bg-base-100 shadow-xl">
+          <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ml-7 lg:ml-0">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="card w-80 md:w-96 bg-base-100 shadow-xl "
+            >
               <figure className="px-10 pt-10">
                 <img
                   src="photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -26,7 +33,12 @@ const TotalCourse = () => {
                 <div className="card-actions"></div>
               </div>
             </div>
-            <div className="card w-80 md:w-96 bg-base-100 shadow-xl">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="card w-80 md:w-96 bg-base-100 shadow-xl"
+            >
               <figure className="px-10 pt-10">
                 <img
                   src="photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -40,7 +52,12 @@ const TotalCourse = () => {
                 <div className="card-actions"></div>
               </div>
             </div>
-            <div className="card w-80 md:w-96 bg-base-100 shadow-xl">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="card w-80 md:w-96 bg-base-100 shadow-xl"
+            >
               <figure className="px-10 pt-10">
                 <img
                   src="photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -54,7 +71,12 @@ const TotalCourse = () => {
                 <div className="card-actions"></div>
               </div>
             </div>
-            <div className="card w-80 md:w-96 bg-base-100 shadow-xl">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="card w-80 md:w-96 bg-base-100 shadow-xl"
+            >
               <figure className="px-10 pt-10">
                 <img
                   src="photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -68,7 +90,12 @@ const TotalCourse = () => {
                 <div className="card-actions"></div>
               </div>
             </div>
-            <div className="card w-80 md:w-96 bg-base-100 shadow-xl">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="card w-80 md:w-96 bg-base-100 shadow-xl"
+            >
               <figure className="px-10 pt-10">
                 <img
                   src="photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -82,7 +109,12 @@ const TotalCourse = () => {
                 <div className="card-actions"></div>
               </div>
             </div>
-            <div className="card w-80 md:w-96 bg-base-100 shadow-xl">
+            <div
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="card w-80 md:w-96 bg-base-100 shadow-xl"
+            >
               <figure className="px-10 pt-10">
                 <img
                   src="photo-1606107557195-0e29a4b5b4aa.jpg"

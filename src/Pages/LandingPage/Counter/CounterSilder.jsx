@@ -32,12 +32,24 @@ const CounterSilder = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="p-12 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
+            <h1 className="text-7xl text-white font-bold">38</h1>
+            <p className="text-xl text-white">Clients</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
               className=" "
               src="https://i.ibb.co/FJd9PqL/logo1.png"
               alt=""
             />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-12 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
+            <h1 className="text-7xl text-white font-bold">38</h1>
+            <p className="text-xl text-white">Clients</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -50,12 +62,24 @@ const CounterSilder = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
+          <div className="p-12 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
+            <h1 className="text-7xl text-white font-bold">38</h1>
+            <p className="text-xl text-white">Clients</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
               className="mt-5"
               src="https://i.ibb.co/ZfQVgyj/logoooo.png"
               alt=""
             />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="p-12 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
+            <h1 className="text-7xl text-white font-bold">38</h1>
+            <p className="text-xl text-white">Clients</p>
           </div>
         </SwiperSlide>
       </Swiper>
