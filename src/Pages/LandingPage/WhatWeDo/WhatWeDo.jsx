@@ -17,7 +17,7 @@ const WhatWeDo = () => {
   return (
     <div className="bg3 lg:p-32">
       <Fade left>
-        <h1 className="text-xl md:text-4xl text-white mt-5 text-center font-bold font1">
+        <h1 className="text-xl md:text-4xl text-white pt-5 text-center font-bold font1">
           WHAT WE DO
         </h1>
       </Fade>
