@@ -1,5 +1,62 @@
 [
   {
+    "name": "WEBSITE CONTENT SERVICES",
+    "header": "A one stop place for your brand to achieve its potential through our words, propelling it towards your digital success",
+    "details": "Our educational content services are specifically made for all your academic purposes.",
+    "services": [
+      {
+        "name": "Essay writing",
+        "service": "  - Our content helps you craft cohesive essays for your projects"
+      },
+      {
+        "name": "Story/script writing",
+        "service": "  Have an idea in mind but don’t know how to put it in words? Avail our descriptive and detailed content on stories/scripts for your ideas to run  free on paper"
+      },
+      {
+        "name": " Translations",
+        "service": "  Whether it be translating from English to Hindi or Hindi to Gujarati, we offer translation services to generate a positive multilingual experience for your readers. "
+      }
+    ]
+  },
+  {
+    "name": "TRANSLATION SERVICES",
+    "header": "Bridge the gap between you and the world through our exceptional translation services, connect with your target audience and increase your reach",
+    "details": "Our educational content services are specifically made for all your academic purposes.",
+    "services": [
+      {
+        "name": "Essay writing",
+        "service": "  - Our content helps you craft cohesive essays for your projects"
+      },
+      {
+        "name": "Story/script writing",
+        "service": "  Have an idea in mind but don’t know how to put it in words? Avail our descriptive and detailed content on stories/scripts for your ideas to run  free on paper"
+      },
+      {
+        "name": " Translations",
+        "service": "  Whether it be translating from English to Hindi or Hindi to Gujarati, we offer translation services to generate a positive multilingual experience for your readers. "
+      }
+    ]
+  },
+  {
+    "name": "POLITICAL CONTENT SERVICES",
+    "header": "The right set of words are enough to make or break your reach, and with us, you needn’t worry about that. From speeches to slogans, your political campaigns are in for a standout amongst your followers to help you achieve your goal.",
+    "details": "Our educational content services are specifically made for all your academic purposes.",
+    "services": [
+      {
+        "name": "Essay writing",
+        "service": "  - Our content helps you craft cohesive essays for your projects"
+      },
+      {
+        "name": "Story/script writing",
+        "service": "  Have an idea in mind but don’t know how to put it in words? Avail our descriptive and detailed content on stories/scripts for your ideas to run  free on paper"
+      },
+      {
+        "name": " Translations",
+        "service": "  Whether it be translating from English to Hindi or Hindi to Gujarati, we offer translation services to generate a positive multilingual experience for your readers. "
+      }
+    ]
+  },
+  {
     "name": " CORPORATE WRITING SERVICES",
     "header": "The right attitude of professionalism and manner in our words combined will take your business to new heights. From presentations to proposals, our high-quality and effective content serves as a purpose to make your work stand out in the corporate world.",
     "details": "Welcome to Swachh Akshar, your one-stop shop for exceptional corporate content writing. In today’s fast-paced business environment, efficient communication is critical to the success of any firm. At Swachh  Akshar, we understand the power of words and the influence they may have on your company’s image. We are a leading source of professional content writing services geared exclusively for businesses, ensuring that your message is presented with the highest precision and clarity.Our experienced writers have a unique combination of corporate communication knowledge and a thorough understanding of diverse sectors. We have the expertise to create content that captivates your audience and drives your company goals forward, whether you require engaging website content, intriguing blog pieces, persuasive sales copy, or educational white paper.Every piece of content we feel  should be precisely crafted to match your individual needs. That is why we take the time to learn about your company’s brand, target audience, and industry peculiarities. Our collaborative approach guarantees that we not only provide content that connects with your audience but also effortlessly matches with your brand voice and values.Partnering with us means getting a competitive advantage in the business sector. Our words have the ability to inspire, engage, and influence your stakeholders, assisting you in establishing a strong brand presence and building long-term partnerships. With Swachh Akshar by your side, you can boldly express your vision, values, and expertise to the rest of the world.Discover the impact that excellent business content can have. Contact us now to see how Swachh Akshar can boost your brand’s narrative and propel your business to new heights.",
@@ -48,63 +105,6 @@
   {
     "name": "EDUCATIONAL CONTENT SERVICES",
     "header": "Our educational content services are specifically made for you to ace all your academic assignments and projects",
-    "details": "Our educational content services are specifically made for all your academic purposes.",
-    "services": [
-      {
-        "name": "Essay writing",
-        "service": "  - Our content helps you craft cohesive essays for your projects"
-      },
-      {
-        "name": "Story/script writing",
-        "service": "  Have an idea in mind but don’t know how to put it in words? Avail our descriptive and detailed content on stories/scripts for your ideas to run  free on paper"
-      },
-      {
-        "name": " Translations",
-        "service": "  Whether it be translating from English to Hindi or Hindi to Gujarati, we offer translation services to generate a positive multilingual experience for your readers. "
-      }
-    ]
-  },
-  {
-    "name": "WEBSITE CONTENT SERVICES",
-    "header": "A one stop place for your brand to achieve its potential through our words, propelling it towards your digital success",
-    "details": "Our educational content services are specifically made for all your academic purposes.",
-    "services": [
-      {
-        "name": "Essay writing",
-        "service": "  - Our content helps you craft cohesive essays for your projects"
-      },
-      {
-        "name": "Story/script writing",
-        "service": "  Have an idea in mind but don’t know how to put it in words? Avail our descriptive and detailed content on stories/scripts for your ideas to run  free on paper"
-      },
-      {
-        "name": " Translations",
-        "service": "  Whether it be translating from English to Hindi or Hindi to Gujarati, we offer translation services to generate a positive multilingual experience for your readers. "
-      }
-    ]
-  },
-  {
-    "name": "TRANSLATION SERVICES",
-    "header": "Bridge the gap between you and the world through our exceptional translation services, connect with your target audience and increase your reach",
-    "details": "Our educational content services are specifically made for all your academic purposes.",
-    "services": [
-      {
-        "name": "Essay writing",
-        "service": "  - Our content helps you craft cohesive essays for your projects"
-      },
-      {
-        "name": "Story/script writing",
-        "service": "  Have an idea in mind but don’t know how to put it in words? Avail our descriptive and detailed content on stories/scripts for your ideas to run  free on paper"
-      },
-      {
-        "name": " Translations",
-        "service": "  Whether it be translating from English to Hindi or Hindi to Gujarati, we offer translation services to generate a positive multilingual experience for your readers. "
-      }
-    ]
-  },
-  {
-    "name": "POLITICAL CONTENT SERVICES",
-    "header": "The right set of words are enough to make or break your reach, and with us, you needn’t worry about that. From speeches to slogans, your political campaigns are in for a standout amongst your followers to help you achieve your goal.",
     "details": "Our educational content services are specifically made for all your academic purposes.",
     "services": [
       {

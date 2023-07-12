@@ -30,7 +30,7 @@ const Counter = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            className="p-5 lg:p-10 bg-[#FA383E] rounded-2xl text-center my-3"
+            className="p-5 lg:p-10 bg-[#FA383E] rounded-2xl text-center my-3 mx-5"
           >
             <h1 className="text-7xl text-white font-bold">
               <CountUp end={17} />
@@ -42,7 +42,7 @@ const Counter = () => {
             data-aos="flip-right"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            className="p-5 lg:p-10 bg-[#FA383E] rounded-2xl text-center my-3"
+            className="p-5 lg:p-10 bg-[#FA383E] rounded-2xl text-center my-3 mx-5"
           >
             <h1 className="text-7xl text-white font-bold">
               <CountUp end={3324} />

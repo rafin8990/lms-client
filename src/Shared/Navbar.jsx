@@ -7,6 +7,9 @@ import { AuthContext } from "../Context/AuthProvider";
 const Navbar = () => {
   const { user, logOut } = useContext(AuthContext);
   const [navbar, setNavbar] = useState(false);
+  const handleTabClick = () => {
+    setNavbar(false); // Collapse the navbar when a tab is clicked
+  };
   return (
     <nav className="w-full bg-black shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
@@ -71,33 +74,46 @@ const Navbar = () => {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="font1 text-xl text-white hover:text-[#FA383E]">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="font1 text-xl text-white hover:text-[#FA383E]">
-                <Link to="/services">Services</Link>
-              </li>
-              <li className="font1 text-xl text-white hover:text-[#FA383E]">
-                <Link to="/about">About</Link>
-              </li>
-              <li className="font1 text-xl text-white hover:text-[#FA383E]">
-                <Link to="/courses">
-                  {" "}
-                  <img
-                    className=" w-24"
-                    src="https://i.ibb.co/7pKHrRK/1.png"
-                    alt=""
-                  />
+                <Link to="/" onClick={handleTabClick}>
+                  Home
                 </Link>
               </li>
               <li className="font1 text-xl text-white hover:text-[#FA383E]">
-                <Link to="/collaboration">Collaboration</Link>
+                <Link to="/services" onClick={handleTabClick}>
+                  Services
+                </Link>
               </li>
               <li className="font1 text-xl text-white hover:text-[#FA383E]">
-                <Link to="/contact">Contact</Link>
+                <Link to="/about" onClick={handleTabClick}>
+                  About
+                </Link>
+              </li>
+              <li className="font1 text-xl border-2 border-red-500 px-3 py-2 w-24 text-white rounded-lg hover:text-[#FA383E] hover:border-[#FA383E]">
+                <Link to="/courses" onClick={handleTabClick}>
+                  {" "}
+                  {/* <img
+                    className=" w-24"
+                    src="https://i.ibb.co/7pKHrRK/1.png"
+                    alt=""
+                  /> */}
+                  Courses
+                </Link>
+              </li>
+              <li className="font1 text-xl text-white hover:text-[#FA383E]">
+                <Link to="/collaboration" onClick={handleTabClick}>
+                  Collaboration
+                </Link>
+              </li>
+              <li className="font1 text-xl text-white hover:text-[#FA383E]">
+                <Link to="/contact" onClick={handleTabClick}>
+                  Contact
+                </Link>
               </li>
               {user?.uid && (
                 <li className="text-xl text-white hover:text-[#FA383E]">
-                  <Link to="/dashboard">Dashboard</Link>
+                  <Link to="/dashboard" onClick={handleTabClick}>
+                    Dashboard
+                  </Link>
                 </li>
               )}
             </ul>
@@ -117,7 +133,9 @@ const Navbar = () => {
                 </div>
               ) : (
                 <li className="btn bg-[#FA383E] text-white font1 border-none btn-sm btn-outline rounded-lg mt-3">
-                  <Link to="/login">Login</Link>
+                  <Link to="/login" onClick={handleTabClick}>
+                    Login
+                  </Link>
                 </li>
               )}
             </div>
@@ -136,7 +154,9 @@ const Navbar = () => {
             </div>
           ) : (
             <li className="btn bg-[#FA383E] text-white border-none btn-sm btn-outline rounded-lg mt-3">
-              <Link to="/login">Login</Link>
+              <Link to="/login" onClick={handleTabClick}>
+                Login
+              </Link>
             </li>
           )}
         </div>

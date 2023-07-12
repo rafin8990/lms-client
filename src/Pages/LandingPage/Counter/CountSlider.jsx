@@ -25,7 +25,7 @@ const CountSlider = () => {
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
-              className=" w-40 mt-2"
+              className=" w-40 mt-10"
               src="https://i.ibb.co/p3hBmkg/logoo.png"
               alt=""
             />
@@ -40,7 +40,7 @@ const CountSlider = () => {
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
-              className="w-40  mt-5"
+              className="w-40  mt-8"
               src="https://i.ibb.co/VJv626Y/logooo.png"
               alt=""
             />
@@ -55,7 +55,7 @@ const CountSlider = () => {
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
-              className="w-40 mt-2"
+              className="w-40 mt-5"
               src="https://i.ibb.co/RvndQHT/logo.png"
               alt=""
             />
@@ -70,7 +70,7 @@ const CountSlider = () => {
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
-              className="w-40 mt-5"
+              className="w-40 mt-10"
               src="https://i.ibb.co/GtBCvm5/image1.jpg"
               alt=""
             />

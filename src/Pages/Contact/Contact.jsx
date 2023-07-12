@@ -23,9 +23,5 @@ const Contact = () => {
     </div>
   );
 };
-//this is constct section
-//this is constct section
-//this is constct section
-//this is constct section
-//this is constct section
+
 export default Contact;
