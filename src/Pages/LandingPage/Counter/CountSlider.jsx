@@ -40,7 +40,7 @@ const CountSlider = () => {
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
-              className="w-40  mt-8"
+              className="w-40  mt-5"
               src="https://i.ibb.co/VJv626Y/logooo.png"
               alt=""
             />

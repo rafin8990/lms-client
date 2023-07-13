@@ -32,7 +32,7 @@ const CounterSilder = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-12 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
+          <div className="p-14 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
             <h1 className="text-7xl text-white font-bold">38</h1>
             <p className="text-xl text-white">Clients</p>
           </div>
@@ -47,7 +47,7 @@ const CounterSilder = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-12 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
+          <div className="p-14 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
             <h1 className="text-7xl text-white font-bold">38</h1>
             <p className="text-xl text-white">Clients</p>
           </div>
@@ -62,7 +62,7 @@ const CounterSilder = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-12 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
+          <div className="p-14 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
             <h1 className="text-7xl text-white font-bold">38</h1>
             <p className="text-xl text-white">Clients</p>
           </div>
@@ -77,7 +77,7 @@ const CounterSilder = () => {
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="p-12 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
+          <div className="p-14 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
             <h1 className="text-7xl text-white font-bold">38</h1>
             <p className="text-xl text-white">Clients</p>
           </div>
