@@ -15,7 +15,7 @@ const LandingPage = () => {
       {/* <Clients></Clients> */}
       <WhatWeDo></WhatWeDo>
       <VideoSection></VideoSection>
-      <div className="pb-5">
+      <div className="">
         <Learner></Learner>
       </div>
       {/* <ExtraSection></ExtraSection> */}

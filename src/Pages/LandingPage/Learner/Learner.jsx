@@ -14,7 +14,7 @@ const Learner = () => {
         </h1>
       </Fade>
 
-      <div className="mt-10 lg:my-20 grid grid-cols-1 md:grid-cols-2  gap-5 lg:w-[1440px] mx-2 lg:mx-auto">
+      <div className="mt-10 pb-5 lg:my-20 grid grid-cols-1 md:grid-cols-2  gap-5 lg:w-[1440px] mx-2 lg:mx-auto">
         <div
           data-aos="fade-up"
           data-aos-easing="linear"

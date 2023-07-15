@@ -28,7 +28,7 @@ const Header = () => {
           <div className=" bg md:h-[700px]">
             <div className=" w-1/2 font1 lg:pt-32">
               <div className="flex justify-center items-center">
-                <div>
+                <div className="ml-5">
                   <img
                     className="w-52 my-2"
                     // src="https://i.ibb.co/Jxsw2LS/logo-5.png"
@@ -61,7 +61,7 @@ const Header = () => {
           <div className="bg1 md:h-[700px]">
             <div className=" w-1/2 font1 lg:pt-32">
               <div className="flex justify-center items-center">
-                <div>
+                <div className="ml-5">
                   <img
                     className="w-52  my-2"
                     // src="https://i.ibb.co/Jxsw2LS/logo-5.png"
@@ -94,7 +94,7 @@ const Header = () => {
           <div className="bg2 md:h-[700px]">
             <div className="w-1/2 font1 lg:pt-32">
               <div className="flex justify-center items-center">
-                <div>
+                <div className="ml-5">
                   <img
                     className="w-52  my-2"
                     // src="https://i.ibb.co/Jxsw2LS/logo-5.png"

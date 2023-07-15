@@ -37,7 +37,7 @@ const WhatWeDo = () => {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             key={service._id}
-            className="card ml-5 md:ml-0 w-80 lg:w-96  shadow-xl image-full"
+            className="card ml-7 md:ml-0 w-80 lg:w-96  shadow-xl image-full"
           >
             <div className="card-body">
               <h2 className="card-title text-[#FA383E] font1">

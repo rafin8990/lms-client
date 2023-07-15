@@ -23,7 +23,7 @@ const Counter = () => {
           </p>
         </Fade>
         <div className="lg:w-[1440px] mx-5 lg:mx-auto  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
-          <div className=" bg-white rounded-2xl text-center">
+          <div className=" bg-white rounded-2xl text-center mx-5">
             <CounterSilder></CounterSilder>
           </div>
           <div
@@ -49,7 +49,7 @@ const Counter = () => {
             </h1>
             <p className="text-xl text-white">Content Written</p>
           </div>
-          <div className=" lg:p-0 bg-white rounded-2xl text-center">
+          <div className=" mx-5 lg:p-0 bg-white rounded-2xl text-center">
             <CountSlider></CountSlider>
           </div>
         </div>
