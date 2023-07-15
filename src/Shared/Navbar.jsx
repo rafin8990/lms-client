@@ -88,17 +88,19 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
-              <li className="font1 text-xl border-2 border-red-500 px-3 py-2 w-24 text-white rounded-lg hover:text-[#FA383E] hover:border-[#FA383E]">
-                <Link to="/courses" onClick={handleTabClick}>
-                  {" "}
-                  {/* <img
+              <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500  rounded-lg w-[90px]">
+                <li className="font1 text-xl px-3 py-2 w-24 text-white rounded-lg hover:text-black hover:border-[#FA383E]">
+                  <Link to="/courses" onClick={handleTabClick}>
+                    {" "}
+                    {/* <img
                     className=" w-24"
                     src="https://i.ibb.co/7pKHrRK/1.png"
                     alt=""
                   /> */}
-                  Courses
-                </Link>
-              </li>
+                    Courses
+                  </Link>
+                </li>
+              </div>
               <li className="font1 text-xl text-white hover:text-[#FA383E]">
                 <Link to="/collaboration" onClick={handleTabClick}>
                   Collaboration
