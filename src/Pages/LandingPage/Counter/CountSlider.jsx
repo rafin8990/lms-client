@@ -23,6 +23,12 @@ const CountSlider = () => {
         className="mySwiper"
       >
         <SwiperSlide>
+          <div className="p-7 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
+            <h1 className="text-7xl text-white font-bold">15</h1>
+            <p className="text-xl text-white">Brands</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
               className="w-20 md:w-40 mt-12"
@@ -31,12 +37,7 @@ const CountSlider = () => {
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="p-7 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
-            <h1 className="text-7xl text-white font-bold">15</h1>
-            <p className="text-xl text-white">Brands</p>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
@@ -46,12 +47,7 @@ const CountSlider = () => {
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="p-7 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
-            <h1 className="text-7xl text-white font-bold">15</h1>
-            <p className="text-xl text-white">Brands</p>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
@@ -61,12 +57,7 @@ const CountSlider = () => {
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="p-7 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
-            <h1 className="text-7xl text-white font-bold">15</h1>
-            <p className="text-xl text-white">Brands</p>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img

@@ -23,6 +23,12 @@ const CounterSilder = () => {
         className="mySwiper"
       >
         <SwiperSlide>
+          <div className="p-7 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
+            <h1 className="text-7xl text-white font-bold">38</h1>
+            <p className="text-xl text-white">Clients</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
               className=" w-20 md:w-40 mt-5"
@@ -31,12 +37,7 @@ const CounterSilder = () => {
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="p-7 lg:p-16  bg-[#FA383E] rounded-2xl text-center">
-            <h1 className="text-7xl text-white font-bold">38</h1>
-            <p className="text-xl text-white">Clients</p>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
@@ -46,12 +47,7 @@ const CounterSilder = () => {
             />
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="p-7 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
-            <h1 className="text-7xl text-white font-bold">38</h1>
-            <p className="text-xl text-white">Clients</p>
-          </div>
-        </SwiperSlide>
+
         <SwiperSlide>
           <div className=" flex justify-center items-center">
             <img
@@ -59,12 +55,6 @@ const CounterSilder = () => {
               src="https://i.ibb.co/DKVd0LL/logooooo.png"
               alt=""
             />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="p-7 lg:p-16 bg-[#FA383E] rounded-2xl text-center">
-            <h1 className="text-7xl text-white font-bold">38</h1>
-            <p className="text-xl text-white">Clients</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
