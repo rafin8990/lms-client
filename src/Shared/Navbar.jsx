@@ -88,7 +88,7 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
-              <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1  rounded-lg w-[90px]">
+              <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 p-1  rounded-lg w-[85px]">
                 <li className="font1 text-xl bg-black p-1 text-white first-letter: rounded-lg hover:text-red-500 hover:border-[#FA383E]">
                   <Link to="/courses" onClick={handleTabClick}>
                     {" "}
